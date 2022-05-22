@@ -1,13 +1,9 @@
-const mony = Number(prompt("Summani kiriting"));
-
-const monyAqsh = Number(750*10896);
-
-const monyEvr = Number(120*12247);
-
+const markm = Number(prompt("Markning massasini kiriting"));
+const markh = Number(prompt("Markning bo'yini kliriting"));
+const johnm = Number(prompt("Johnni massasini kiriting"));
+const johnh = Number(prompt("Johnning bo'yini kiriting"));
 
 
-if(mony > monyAqsh + monyEvr) {
-    console.log("Oq yo’l, Alisher!");
-} else {
-    console.log("Alisher, ozgina sabr qilish kerak bo’lar ekan");
-}
+console.log(`Markning BMI =${(markm/markh)**2} ga teng`);
+console.log(`Johnning BMI =${(johnm/johnh)**2} ga teng`);
+
